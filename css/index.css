@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family:courier,arial,helvetica;
+  font-size: 1.5vw;
+}
+
+.first-section{
+  position: relative;
+  max-width: 100%;
+}
+
+
+#backgroundSTLK {
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 0%;
+  color: #f1f1f1;
+  padding-left: 50%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+rect {
+  fill: none !important;
+}
+
+.about {
+  margin-bottom: 10px;
+}
+
+.tokenomics {
+  margin-top: 10%;
+  text-align: left;
+}
+
+#distributions, #fees{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30% !important;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.price{
+	text-align: right;
+}
+
+table, tr, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smallimage {
+	max-height: 20px;
+  max-width: 20px;
+}
